@@ -1,0 +1,198 @@
+/*
+Theme Name: TestPort
+Theme URI: justinhurst.net
+Description: A theme for learning!
+Author: justin hurst
+Author URI: http://justinhurst
+Version: 1.0
+License: GPLv2 
+License URI: license.txt
+Tags:gray, two-columns
+------------------------------
+	Table of Contents
+------------------------------
+==Basic Links
+==Layout blocks
+==Navigation Top Bar
+==Search Bar (top)
+==utilities (top) 
+==Breadcrumbs
+==pagination
+==Search Form
+==comment form
+==comments list
+==sidebar and widget typography and layout
+==post typography 
+==blockquotes 
+==Gallery
+==Forms
+==tables
+==Lists
+==misc tags
+==Calendar Widget
+==custom post type - products 
+==Latest Products   
+==Contact info options box
+==Media Queries
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300);
+
+html{
+
+}
+body{
+	font-family:'Open Sans';
+}
+#wrapper{
+
+}
+header{
+    width: 100%;
+    background-color: #444;
+    padding: 0px 24px;
+    box-shadow: 0px 2px 1px rgba(0,0,0,0.15);
+}
+.top-bar{
+	max-width:1180px;
+	margin:0 auto;
+	padding:12px 0;
+}
+.top-bar h1{
+	float:left;
+}
+.top-bar h1 a{
+	font-size:24px;
+	color:#fff;
+	text-decoration:none;
+}
+.top-bar nav{
+	float:right;
+}
+.top-bar nav ul li a{
+	color:#fff;
+	text-decoration:none;
+}
+#container{
+	max-width:1180px;
+	margin:0 auto;
+}
+#content{
+
+}
+nav ul li{
+	display:inline-block;
+}
+#hero{
+	background: linear-gradient(270deg, #af2aff, #3db4ff);
+	background-size: 400% 400%;
+	text-align:center;
+	padding:177px 24px 120px 24px;
+	box-shadow: inset 0 -7px 9px -7px rgba(0,0,0,0.15);
+
+	-webkit-animation: AnimationName 10s ease infinite;
+	-moz-animation: AnimationName 10s ease infinite;
+	animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+#hero h1{
+	color:#fff;
+	font-size:30px;
+	font-weight:300;
+	max-width:1000px;
+	margin:0 auto 24px;
+}
+#hero a{
+	display:inline-block;
+	font-size:18px;
+	font-weight:400;
+	padding:12px 24px;
+	text-transform:uppercase;
+	border:solid 2px #fff;
+	color:#fff;
+	text-decoration:none;
+}
+
+.blog article{
+    margin-bottom:24px;
+}
+.blog article img{
+	display:block;
+	float:left;
+	margin:0 12px 0 0;
+}
+.listing-content{
+	
+}
+article{
+	margin:0 0 36px 0;
+}
+article img{
+	margin:0;
+	max-width:100%;
+}
+.postmeta{
+	font-size:12px;
+	color:#999;
+}
+.postmeta a{
+	color:#999;
+	font-size:12px;
+}
+h2.entry-title{
+  font-size:24px;
+  margin:12px 0 12px 0;
+}
+.entry-title a{
+	text-decoration:none;
+	color:#444;
+}
+.entry-title a:hover{
+	color:#000;
+}
+.category{
+	display:block;
+	background-color:#d2d2d2;
+	padding:12px 0;
+}
+.category a{
+	color:#fff;
+	font-size:12px;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+}
+article p{
+	line-height:1.25em;
+}
+.entry-content{
+
+}
+.readmore{
+	display:block;
+	width:150px;
+	margin:0 0 12px 0;
+	padding:12px;
+	text-align:center;
+	text-decoration:none;
+	background-color:steelblue;
+	color:#fff;
+
+}
+footer{
+	background-color:#333;
+}
